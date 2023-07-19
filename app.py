@@ -40,7 +40,7 @@ if question := st.chat_input("Ask something"):
 
         with st.spinner('Please wait...'):
             result = query({
-                "flow_id": "Flow_Sample_Q_A_Bot_YTI3MWU0ZTctNjk0",
+                "flow_id": "Flow_Sample_Q_A_Bot_OTA2MDJkZTItMmVk",
                 "inputs": [{
                     "question": question + " If the answer to my question is not in the context, just return 'Sorry, I do not have the answer to your question.'"
                 }]
